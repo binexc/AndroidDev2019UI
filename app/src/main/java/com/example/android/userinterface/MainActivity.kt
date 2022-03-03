@@ -13,15 +13,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
-        button1.setOnClickListener{
+        btn1.setOnClickListener{
             displayImageAsset("monster01.webp")
         }
 
-        button2.setOnClickListener{
+        btn2.setOnClickListener{
             displayImageAsset("monster02.webp")
         }
 
-        button3.setOnClickListener{
+        btn3.setOnClickListener{
             displayImageAsset("monster03.webp")
         }
 
